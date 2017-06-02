@@ -21,7 +21,7 @@ class Conta{
 }
 
 class Pessoa{
-	String titular;
+	String nome;
 	String cpf;
 	String dataNascimento;
 }
@@ -37,6 +37,8 @@ public class Banco{
 		mauricio.titular.nome = "Mauricio Aniche";
 		mauricio.titular.cpf = "123456789";
 		mauricio.titular.dataNascimento = "01/01/1975";
+		System.out.println(mauricio.titular.nome);
+
 
 		mauricio.deposita(100.00);
 		mauricio.saca(200.00);
